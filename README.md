@@ -1,15 +1,15 @@
-# MediWard V4
+# MediWard V5
 
-A React/Vite browser-based educational ward game. Ten patients, one emergency at a time, ABCDE assessment, interactive equipment, bedside visualisation, Meddy Reg, jobs, graveyard retries, achievement wallet and emergency history.
+Browser-based medical ward simulation.
 
-## Deploy to Vercel
+## Changes
+- Scrollable, auto-following bedside chat with patient and nurse feedback
+- Patient-specific equipment trolley for urinary catheterisation and venepuncture
+- Interactive radiology and pathology request forms
+- Ordered equipment selection and procedural feedback
+- Existing emergency ABCDE, Meddy Reg, voice SBAR, history and achievements retained
 
-Upload the *contents* of this folder to the root of your existing GitHub repository. Commit changes. Vercel will deploy with Vite defaults (`npm run build`, output `dist`).
+## Deployment
+Upload the contents of this directory to your existing GitHub repository. Vercel framework: Vite, build: `npm run build`, output: `dist`.
 
-## Run locally
-
-`npm install` then `npm run dev`.
-
-## Notes
-
-This is a prototype, not validated medical teaching software. Scenarios are simplified and must be clinically reviewed before use. Speech-to-text uses browser speech recognition when available. No AI API or server is required. Emergencies are unlocked after two completed routine jobs and only one can be active at once.
+Educational prototype only. Clinical pathways and procedural sequences require expert review before use in teaching or patient care.
