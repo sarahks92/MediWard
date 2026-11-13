@@ -1,1 +1,1 @@
-MediWard V6 — conversational bedside interactions, simulated laboratory results, clinical observations, and antibiotic/IV fluid prescribing forms. Deploy with Vite on Vercel. Run npm install and npm run build. Clinical content is illustrative and requires clinical governance review before teaching use. Browser speech recognition availability varies.
+MediWard V7 — workflow updates. Install with npm install, build with npm run build, deploy to Vercel using Vite. Clinical teaching prototype; validate prescribing and procedural guidance against current local NHS policies.
