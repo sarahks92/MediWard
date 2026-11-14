@@ -17,3 +17,6 @@ Changes: interactive ECG tracing and rhythm recognition for Bed 6; natural sympt
 - Emergency assessment completes ABCDE once, with automatic nurse reassessment and clear outcome. No repeat-reassessment keyword loop.
 - Effective intervention remains required; SBAR handover now requested before completing the emergency.
 - Bed 8 pain questions elicit a pain score; neurovascular examination questions or actions reveal perfusion, sensation and movement findings.
+
+
+V16: Bed 6 ECG → interpretation → echocardiography request → completed. Echo form accepts concise AF indications and closes the job without looping.
