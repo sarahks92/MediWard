@@ -1,7 +1,13 @@
-# MediWard V9 — Walkable Ward
+# MediWard V11 — bleeps and clinical prioritisation
 
-Walk using WASD/arrow keys, press E to interact near a bed or the nurses station, or click a bed to approach it. Nurses move through the ward. The first urgent bleep occurs about 2 minutes after starting, with one emergency at a time and two routine jobs between subsequent emergencies.
+Run `npm install`, `npm run build`, then `npm run dev`. Deploy the repository root to Vercel using Vite.
 
-Clinical tasks and bedside simulations are carried forward from V8. The game is a teaching prototype, not a validated clinical training tool.
+Changes from V10:
+- First urgent bleep at 120 real seconds, one urgent patient at a time.
+- In hard mode, routine bleeps every 45 seconds even when busy.
+- The player can open any patient, even if an emergency is pending; a nurse warns them.
+- An unanswered emergency has a five-minute real-time countdown and sends the patient to the graveyard on expiry.
+- Graveyard retry reopens an emergency scenario.
+- After a completed emergency, two routine jobs are required before the next emergency.
 
-Run `npm install && npm run build`. Deploy to Vercel with Vite, build command `npm run build`, output directory `dist`.
+This is a training-game prototype; the fixed five-minute countdown is a gameplay mechanic, not a clinically valid survival estimate.
