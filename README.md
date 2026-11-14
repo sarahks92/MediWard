@@ -1,1 +1,5 @@
-MediWard V7 — workflow updates. Install with npm install, build with npm run build, deploy to Vercel using Vite. Clinical teaching prototype; validate prescribing and procedural guidance against current local NHS policies.
+# MediWard V8
+
+Updated scenarios: consultant-directed doxycycline 100 mg oral BD; COPD ABG sampling, interpretation MCQ and explicit 88–92% oxygen target; simple PE CXR request; HHS weight and prior fluids; glucose results; open-ended family conversation.
+
+Deploy to Vercel using Vite build command `npm run build` and output `dist`. Educational simulation only; prescribing and emergency algorithms require clinical validation.
