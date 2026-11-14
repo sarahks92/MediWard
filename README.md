@@ -1,5 +1,7 @@
-# MediWard V8
+# MediWard V9 — Walkable Ward
 
-Updated scenarios: consultant-directed doxycycline 100 mg oral BD; COPD ABG sampling, interpretation MCQ and explicit 88–92% oxygen target; simple PE CXR request; HHS weight and prior fluids; glucose results; open-ended family conversation.
+Walk using WASD/arrow keys, press E to interact near a bed or the nurses station, or click a bed to approach it. Nurses move through the ward. The first urgent bleep occurs about 2 minutes after starting, with one emergency at a time and two routine jobs between subsequent emergencies.
 
-Deploy to Vercel using Vite build command `npm run build` and output `dist`. Educational simulation only; prescribing and emergency algorithms require clinical validation.
+Clinical tasks and bedside simulations are carried forward from V8. The game is a teaching prototype, not a validated clinical training tool.
+
+Run `npm install && npm run build`. Deploy to Vercel with Vite, build command `npm run build`, output directory `dist`.
