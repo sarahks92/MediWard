@@ -11,3 +11,9 @@ Changes: interactive ECG tracing and rhythm recognition for Bed 6; natural sympt
 - Bed selection is now immediate: click any bed to approach it and open the patient, avoiding blocked auto-walking paths.
 - Manual keyboard and on-screen movement remain available, with wider interaction range near beds.
 - Every patient now has a fictional age and two-line admission summary visible at the bedside.
+
+
+## V15 changes
+- Emergency assessment completes ABCDE once, with automatic nurse reassessment and clear outcome. No repeat-reassessment keyword loop.
+- Effective intervention remains required; SBAR handover now requested before completing the emergency.
+- Bed 8 pain questions elicit a pain score; neurovascular examination questions or actions reveal perfusion, sensation and movement findings.
