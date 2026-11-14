@@ -20,3 +20,9 @@ Changes: interactive ECG tracing and rhythm recognition for Bed 6; natural sympt
 
 
 V16: Bed 6 ECG → interpretation → echocardiography request → completed. Echo form accepts concise AF indications and closes the job without looping.
+
+
+## V17 changes
+- Hard mode routine bleeps every 22 seconds, with up to eight retained and four visible at once. Emergency timing and five-minute deadline unchanged.
+- Animated sun across the ward and bedside windows, transitioning to sunset and night.
+- Chloe Ting: request observations in natural language; nurse gives actual observations and advances to the X-ray request.
